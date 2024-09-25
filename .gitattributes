@@ -1,0 +1,8 @@
+# Ensure that text files use LF in the repository and CRLF on Windows systems
+* text=auto
+
+# Force specific file types to use LF (for Unix systems) in the repository
+*.php text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
